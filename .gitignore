@@ -5,4 +5,5 @@ node_modules/
 leads.json
 .vercel/
 .netlify/
+nextjs-blueprint/
 
