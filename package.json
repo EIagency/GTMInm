@@ -2,7 +2,6 @@
   "name": "gtm-in-motion",
   "version": "1.0.0",
   "description": "GTM in Motion — Enterprise Go-To-Market Engineering Agency Landing Page",
-  "main": "server.js",
   "scripts": {
     "build": "echo 'Static build ready'",
     "start": "node server.js",
