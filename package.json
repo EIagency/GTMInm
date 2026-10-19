@@ -2,11 +2,12 @@
   "name": "gtm-in-motion",
   "version": "1.0.0",
   "description": "GTM in Motion — Enterprise Go-To-Market Engineering Agency Landing Page",
+  "main": "server.js",
   "scripts": {
-    "build": "echo 'Static build ready'",
-    "start": "node dev-server.js",
-    "dev": "node dev-server.js",
-    "test": "node -e \"const http=require('http');require('./dev-server.js');setTimeout(()=>{http.get('http://localhost:3000',(r)=>{console.log('Site online:',r.statusCode);process.exit(0);});},500);\""
+    "build": "echo 'Build complete'",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node -e \"const http=require('http');require('./server.js');setTimeout(()=>{http.get('http://localhost:3000',(r)=>{console.log('Site online:',r.statusCode);process.exit(0);});},500);\""
   },
   "keywords": [
     "gtm",
