@@ -1,0 +1,22 @@
+{
+  "name": "gtm-in-motion",
+  "version": "1.0.0",
+  "description": "GTM in Motion — Enterprise Go-To-Market Engineering Agency Landing Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node -e \"const http=require('http');require('./server.js');setTimeout(()=>{http.get('http://localhost:3000',(r)=>{console.log('Site online:',r.statusCode);process.exit(0);});},500);\""
+  },
+  "keywords": [
+    "gtm",
+    "b2b",
+    "enterprise",
+    "landing-page",
+    "revenue-operations"
+  ],
+  "author": "GTM in Motion",
+  "license": "UNLICENSED",
+  "private": true
+}
+
