@@ -18,6 +18,9 @@
   ],
   "author": "GTM in Motion",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }
 
